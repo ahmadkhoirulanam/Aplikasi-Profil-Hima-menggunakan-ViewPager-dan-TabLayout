@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".halaman">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hallo"
+                android:text="HIMFORMA"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textAlignment="center"/>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="150dp"
+                   android:src="@drawable/hima"
+                   android:layout_marginTop="10dp"
+                   android:layout_weight="1"/>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview6"
+                android:text="     Himpunan Mahasiswa Informatika atau yang sering disebut dengan HIMFORMA adalah lembaga kemahasiswaan yang ada di Program Studi Informatika Fakultas Teknik Universitas PGRI Semarang. Visinya ialah Menjadikan HIMFORMA sebagai wadah aspirasi mahasiswa dibidang akademik dan non-akademik yang berkarakter, unggul dan berjati diri. Menjadikan HIMFORMA sebagai wadah aspirasi mahasiswa dibidang akademik dan non-akademik yang berkarakter, unggul dan berjati diri.       "
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
